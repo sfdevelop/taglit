@@ -9225,6 +9225,13 @@ h2 {
     color: #3B5998;
 }
 
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #fff;
+}
+
 /* Слайдер */
 .slick-slider {
     min-width: 0;
@@ -9906,4 +9913,34 @@ footer p {
     text-align: center;
     margin-bottom: 0;
     color: #fff;
+}
+
+.search_head {
+    background-image: url(../i/head.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 110px;
+    position: relative;
+    overflow: hidden;
+}
+
+.search_head:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(59, 89, 152, 0.68);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.search_head .head_sections {
+    position: relative;
+    z-index: 22;
+}
+
+.search_head .head_sections img {
+    height: 150px;
 }
