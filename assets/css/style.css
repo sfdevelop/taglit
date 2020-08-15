@@ -9719,6 +9719,7 @@ h1 {
 
     .intro__content h1 {
         font-size: 13px;
+        line-height: 1.2;
     }
 
     .intro__content p {
