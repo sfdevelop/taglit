@@ -9232,6 +9232,12 @@ h1 {
     color: #fff;
 }
 
+h5 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+
 /* Слайдер */
 .slick-slider {
     min-width: 0;
@@ -10181,16 +10187,16 @@ footer p {
     color: #0DA7E1;
 }
 
-.item {
+.item_body {
     margin-top: 110px;
 }
 
-.item .head_sections {
+.item_body .head_sections {
     background-image: url(../i/item_head.png);
     color: #fff;
 }
 
-.item .head_sections p {
+.item_body .head_sections p {
     font-size: 23px;
     line-height: 28px;
     font-style: normal;
@@ -10198,33 +10204,97 @@ footer p {
     text-transform: capitalize;
 }
 
-.item .head_sections h1 {
+.item_body .head_sections h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     line-height: 39px;
 }
 
-.item .head_sections .item__img {
+.item_body .head_sections .item__img {
     width: 135px;
     height: 135px;
     border-radius: 50%;
 }
 
-.item__text p {
+.item_body__text p {
     color: #0DA7E1;
     line-height: 1.2;
 }
 
-.item .slider_vacansie__nav img {
+.item_body .slider_vacansie__nav img {
     border-left: 3px solid #fff;
     border-right: 3px solid #fff;
 }
 
-.item .slider_vacansie__nav img:hover {
+.item_body .slider_vacansie__nav img:hover {
     cursor: pointer;
 }
 
-.item .slider_vacansie__nav img {
+.item_body .slider_vacansie__nav img {
     max-width: 100%;
+}
+
+.item_body__box {
+    border: 1px solid #0DA7E1;
+    height: 100%;
+}
+
+.item_body__box ul {
+    list-style: none;
+}
+
+.item_body__box ul li {
+    color: #3B5998;
+}
+
+.item_body__box ul li a {
+    color: #0DA7E1;
+}
+
+.item_body__box h5 {
+    color: #3B5998;
+}
+
+.item_body .btn {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.item_body .btn:hover {
+    color: #fff;
+}
+
+.item_body__box_mobile {
+    border: 1px solid #0DA7E1;
+}
+
+.item_body__box_mobile ul {
+    list-style: none;
+}
+
+.item_body__box_mobile ul li {
+    font-size: 17px;
+    line-height: 1.2;
+    color: #3B5998;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 100%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
