@@ -9438,6 +9438,10 @@ h5 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .intro__content h1 {
+        line-height: 1.2;
+    }
+
     header .logo img {
         width: 170px;
     }
@@ -9534,6 +9538,38 @@ h5 {
 
     .search_body__box {
         border: none !important;
+    }
+
+    .item_body__box_mobile .btn {
+        font-size: 17px !important;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .item_body__box_mobile a {
+        font-size: 17px !important;
+        line-height: 1.2;
+    }
+
+    .item_body__box_mobile ul li a {
+        color: #0DA7E1;
+    }
+
+    .item_body__box_mobile .social img {
+        width: 17px;
+    }
+
+    .item_body__text p {
+        font-size: 17px;
+    }
+
+    .descript p {
+        font-size: 17px !important;
+        line-height: 1.2 !important;
+    }
+
+    .descript a {
+        font-size: 25px !important;
     }
 }
 
@@ -10013,6 +10049,7 @@ header .btn-default:hover {
     -ms-flex-direction: column;
     flex-direction: column;
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .recently .card .name {
