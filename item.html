@@ -48,11 +48,154 @@
 					<a href="about.html">О проекте</a>
 				</div>
 				<div class="registration">
-					<a class="btn-default btn px-sm-5 px-2 ">Регистрация</a>
+					<a class="btn-default btn px-sm-5 px-2 " data-toggle="modal" data-target="#registered">Регистрация</a>
 				</div>
 			</div>
 		</div>
 	</header>
+	
+	<div class="modal fade" id="registered" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-xl">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Регистрация</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form action="">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*ФИО</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*Год участия в проекте</label>
+										<select name="cars" class="custom-select">
+											<option selected></option>
+											<option value="volvo">Volvo</option>
+											<option value="fiat">Fiat</option>
+											<option value="audi">Audi</option>
+										</select>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*e-mail</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*Название бизнеса</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">Логотип</label>
+										<div class="custom-file">
+											<input type="file" class="custom-file-input mb-0 pb-0" id="customFile">
+											<label class="custom-file-label mb-0 pb-0" for="customFile">Выберите файл</label>
+										</div>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*Отрасль</label>
+										<select name="cars" class="custom-select">
+											<option selected></option>
+											<option value="volvo">Volvo</option>
+											<option value="fiat">Fiat</option>
+											<option value="audi">Audi</option>
+										</select>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*Телефон бизнеса</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*Город, страна</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">Сайт</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname">
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*Краткое описание бизнеса</label>
+										<textarea name="" id="" cols="30" rows="4"></textarea>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">Фотографии</label>
+										<div class="custom-file">
+											<input type="file" class="custom-file-input mb-0 pb-0" id="customFile">
+											<label class="custom-file-label mb-0 pb-0" for="customFile">Выберите файлы</label>
+										</div>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">Ссылкa на видео</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname">
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12 mt-3">
+									<div class="custom-control custom-checkbox pb-0 mb-0">
+										<input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+										<label class="custom-control-label" for="customCheck">Отправляя эту форму, я соглашаюсь с условиями, содержащимися в политике
+											конфиден циальности</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Зарегистрироваться</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="item_body">
 		<div class="head_sections py-3">
 			<div class="container">
@@ -207,6 +350,33 @@
 				</div>
 			</div>
 		</div>
+	
+		<div class="slider py-2">
+			<div class="container">
+				<h2 class="text-left mb-4">Галерея</h2>
+				<div class="slider_item">
+					<div class="item p-sm-3 p-1">
+						<img src="assets/i/loading.gif" data-src="assets/i/slider/01.png" class="b-lazy w-100" alt="01">
+					</div>
+					<div class="item p-sm-3 p-1">
+						<img src="assets/i/loading.gif" data-src="assets/i/slider/02.png" class="b-lazy w-100" alt="02">
+					</div>
+					<div class="item p-sm-3 p-1">
+						<img src="assets/i/loading.gif" data-src="assets/i/slider/03.png" class="b-lazy w-100" alt="03">
+					</div>
+					<div class="item p-sm-3 p-1">
+						<img src="assets/i/loading.gif" data-src="assets/i/slider/04.png" class="b-lazy w-100" alt="04">
+					</div>
+					<div class="item p-sm-3 p-1">
+						<img src="assets/i/loading.gif" data-src="assets/i/slider/03.png" class="b-lazy w-100" alt="03">
+					</div>
+					<div class="item p-sm-3 p-1">
+						<img src="assets/i/loading.gif" data-src="assets/i/slider/04.png" class="b-lazy w-100" alt="04">
+					</div>
+				</div>
+			</div>
+		</div>
+	
 	</div>
 	<div class="descript py-4">
 		<div class="container">
