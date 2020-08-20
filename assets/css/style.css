@@ -10763,3 +10763,12 @@ footer p {
     width: 100%;
     position: absolute;
 }
+
+.modal-body .search {
+    border: 1px solid #0DA7E1;
+    padding: 3px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #fff !important;
+}

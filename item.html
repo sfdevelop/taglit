@@ -42,7 +42,7 @@
 					</a>
 				</div>
 				<div class="serch">
-					<img class="b-lazy" src="assets/i/loading.gif" data-src="assets/i/search.png" alt="logo"> <a href="search.html">Поиск</a>
+					<img class="b-lazy" src="assets/i/loading.gif" data-src="assets/i/search.png" alt="logo"> <a href="" data-toggle="modal" data-target="#search_modal">Поиск</a>
 				</div>
 				<div class="about">
 					<a href="about.html">О проекте</a>
@@ -196,6 +196,64 @@
 			</div>
 		</div>
 	</div>
+	
+	
+	<div class="modal fade" id="search_modal" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-xl">
+			<div class="modal-content d-block">
+				<div class="modal-header bord-0">
+					<h5 class="modal-title" id="staticBackdropLabel">Поиск</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body d-block pb-5 px-3">
+					<div class="intro__content d-block mb-5 px-1">
+						<form action="">
+							<div class="search px-1 d-flex align-items-center justify-content-between">
+	
+								<div class="search_input pl-1 pl-sm-3">
+									<input type="text" placeholder="Поиск по названию ...">
+								</div>
+								<div class="dropdown bl-1">
+									<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Все отрасли
+										<span class="caret"></span></button>
+									<ul class="dropdown-menu px-3">
+										<li><a href="#">Рукоделие</a></li>
+										<li><a href="#">Уход за собой</a></li>
+										<li><a href="#">Гостинично-ресторанный бизнес</a></li>
+										<li><a href="#">Языки</a></li>
+										<li><a href="#">Компьютерные науки</a></li>
+	
+									</ul>
+								</div>
+								<div class="dropdown">
+									<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Страна, город
+										<span class="caret"></span></button>
+									<ul class="dropdown-menu px-3">
+										<li class="dropdown-header p-0 my-1">Украина</li>
+										<li><a href="#">Киев</a></li>
+										<li><a href="#">Запорожье</a></li>
+										<li><a href="#">Одесса</a></li>
+										<li class="divider"></li>
+										<li class="dropdown-header p-0 my-1">Россия</li>
+										<li><a href="#">Москва</a></li>
+										<li><a href="#">Санкт-Петербург</a></li>
+										<li><a href="#">Ростов</a></li>
+										<li><a href="#">Ростов</a></li>
+										<li><a href="#">Ростов</a></li>
+										<li><a href="#">Ростов</a></li>
+									</ul>
+								</div>
+								<div class="btn btn-default px-sm-5 px-2 ml-2">Поиск</div>
+	
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="item_body">
 		<div class="head_sections py-3">
 			<div class="container">
@@ -282,7 +340,7 @@
 							</ul>
 						</div>
 						<div class="feed_beack text-center">
-							<a href="" class="btn btn-default px-sm-5">Написать</a>
+							<a href="" class="btn btn-default px-sm-5" data-toggle="modal" data-target="#feedbeack">Написать</a>
 						</div>
 						<div class="push text-center mt-5">
 							<h5>Поделиться</h5>
@@ -321,7 +379,7 @@
 	
 							</div>
 							<div class="col-6 text-right">
-								<a href="" class="btn btn-default">Написать</a>
+								<a href="" class="btn btn-default" data-toggle="modal" data-target="#feedbeack">Написать</a>
 								<ul>
 									<li><a href="">YouTube</a></li>
 									<li><a href="">Instagram</a></li>
@@ -377,6 +435,72 @@
 			</div>
 		</div>
 	
+	</div>
+	
+	
+	<div class="modal fade" id="feedbeack" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="staticBackdropLabel">Написать</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form action="">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*ФИО</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+	
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*e-mail</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+	
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*Телефон</label>
+										<input type="text" class="form-control" id="uname" placeholder="" name="uname" required>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group pb-0 mb-0">
+										<label for="uname">*Текст</label>
+										<textarea name="" id="" cols="30" rows="4"></textarea>
+										<div class="valid-feedback">Valid.</div>
+										<div class="invalid-feedback">Please fill out this field.</div>
+									</div>
+								</div>
+								<div class="col-12 mt-3">
+									<div class="custom-control custom-checkbox pb-0 mb-0">
+										<input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+										<label class="custom-control-label" for="customCheck">Отправляя эту форму, я соглашаюсь с условиями, содержащимися в политике
+											конфиден циальности</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Отправить</button>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="descript py-4">
 		<div class="container">
