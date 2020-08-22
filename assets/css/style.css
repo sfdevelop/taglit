@@ -10781,3 +10781,8 @@ footer p {
 .modal-header {
     border-bottom: 1px solid #fff !important;
 }
+
+.valid-feedback,
+.invalid-feedback {
+    font-size: 11px !important;
+}
