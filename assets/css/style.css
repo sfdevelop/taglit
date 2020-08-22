@@ -9536,6 +9536,8 @@ h5 {
 /* Ограничивающая оболочка */
 .slick-list {
     overflow: hidden;
+    margin: 0 auto;
+    text-align: center !important;
 }
 
 /* Лента слайдов */
@@ -9549,6 +9551,12 @@ h5 {
 }
 
 /* Слайд */
+.slick-slide {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
 /* Слайд активный */
 /* Слайд основной */
 /* Слайд по центру */
@@ -10698,6 +10706,7 @@ footer p {
 
 .item_body .slider_vacansie__nav img {
     max-width: 100%;
+    min-width: 25%;
 }
 
 .item_body__box {
