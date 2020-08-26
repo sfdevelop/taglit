@@ -10335,6 +10335,14 @@ h5 {
     text-transform: uppercase;
 }
 
+.red {
+    background: red;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .form-group label {
     font-size: 13px;
 }
@@ -10755,6 +10763,20 @@ footer p {
     color: #3B5998;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.item_body .slick-slide div {
+    width: 100% !important;
+    height: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.item_body .slick-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .map-responsive {
