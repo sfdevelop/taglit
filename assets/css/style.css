@@ -10384,6 +10384,18 @@ h5 {
     border-right: none !important;
 }
 
+.otr-1 li {
+    color: #3B5998 !important;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 1.0 !important;
+}
+
+.otr-1 li a {
+    color: #3B5998 !important;
+    line-height: 1.0 !important;
+}
+
 .bottom-none {
     border-bottom: none !important;
 }
@@ -10488,6 +10500,7 @@ input:focus {
     max-height: 180px;
     overflow: auto;
     z-index: 888;
+    width: 100%;
 }
 
 .search .dropdown .dropdown-menu li {
@@ -10497,6 +10510,7 @@ input:focus {
 
 .search .dropdown .btn {
     font-size: 23px;
+    width: 100%;
 }
 
 .search .dropdown a {
