@@ -9705,6 +9705,10 @@ h5 {
         margin-bottom: 30px;
     }
 
+    .search_body .row:last-child {
+        border-bottom: none !important;
+    }
+
     .search_body p {
         font-size: 17px !important;
         line-height: 1.2 !important;
@@ -10235,7 +10239,7 @@ h5 {
     }
 
     .head_sections {
-        margin-top: 73px !important;
+        margin-top: 40px !important;
     }
 
     .head_sections h1 {
@@ -10378,6 +10382,10 @@ h5 {
 
 .nr-0 {
     border-right: none !important;
+}
+
+.bottom-none {
+    border-bottom: none !important;
 }
 
 .red {
@@ -10547,6 +10555,18 @@ header .btn-default:hover {
     font-weight: bold;
     font-size: 17px;
     line-height: 21px;
+    min-height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .recently .card .card-body {
@@ -10576,8 +10596,9 @@ header .btn-default:hover {
     color: #fff;
 }
 
-.recently .card .social {
-    margin: auto 0;
+.recently .card .social img {
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .recently a {
@@ -10659,6 +10680,10 @@ footer p {
 
 .head_sections .row img {
     height: 150px;
+}
+
+.head_sections a {
+    color: #fff;
 }
 
 .search_body .title {
@@ -10745,6 +10770,10 @@ footer p {
 .item_body__text p {
     color: #0DA7E1;
     line-height: 1.2;
+}
+
+.item_body .slider_vacansie__nav {
+    margin-top: 5px;
 }
 
 .item_body .slider_vacansie__nav img {
