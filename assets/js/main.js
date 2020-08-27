@@ -18498,7 +18498,7 @@ $(document).ready(function () {
 				breakpoint: 768,
 				settings: {
 					slidesToShow: 2,
-					arrows: false,
+					arrows: true,
 					slidesToScroll: 1
 				}
     }

@@ -10088,6 +10088,14 @@ h5 {
 }
 
 @media (max-width: 576px) {
+    .card-body {
+        padding: 0.4rem;
+    }
+
+    .card-body ul {
+        margin-bottom: 0;
+    }
+
     header .logo img {
         width: 100px;
     }
@@ -10099,16 +10107,22 @@ h5 {
     }
 
     header .btn-default {
-        margin-top: 5px;
+        margin-top: 0px;
+        height: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 
     .intro {
-        margin-top: 70px !important;
+        margin-top: 45px !important;
     }
 
     .serch img {
         width: 10px;
-        margin-top: 5px;
     }
 
     .video__media {
@@ -10116,7 +10130,7 @@ h5 {
     }
 
     .intro {
-        height: 400px !important;
+        height: 340px !important;
     }
 
     .intro__content img {
@@ -10221,7 +10235,7 @@ h5 {
     }
 
     .head_sections {
-        margin-top: 63px !important;
+        margin-top: 73px !important;
     }
 
     .head_sections h1 {
@@ -10306,9 +10320,22 @@ h5 {
     }
 
     .item_body__box_mobile .btn {
-        font-size: 17px !important;
+        font-size: 12px !important;
         padding-top: 2px;
         padding-bottom: 2px;
+        height: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100px;
+        float: right;
+        margin-bottom: 10px;
     }
 
     .item_body__box_mobile a {
@@ -10317,7 +10344,7 @@ h5 {
     }
 
     .item_body__box_mobile ul li {
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 
     .item_body__box_mobile ul li a {
@@ -10328,11 +10355,29 @@ h5 {
     .item_body__box_mobile .social img {
         width: 17px;
     }
+
+    .slider .slick-arrow.slick-prev,
+  .slider .slick-arrow.slick-next {
+        width: 20px;
+    }
+
+    .slider_item {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .slider .slick-arrow {
+        margin-top: -15px;
+    }
 }
 
 .intro__title {
     font-size: 27px;
     text-transform: uppercase;
+}
+
+.nr-0 {
+    border-right: none !important;
 }
 
 .red {
