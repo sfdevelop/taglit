@@ -9885,6 +9885,10 @@ h5 {
     .item_body .head_sections .item__img {
         width: 80px !important;
     }
+
+    .item_body {
+        margin-top: 60px !important;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -9988,7 +9992,7 @@ h5 {
     }
 
     .head_sections {
-        margin-top: 63px !important;
+        margin-top: 13px !important;
     }
 
     .head_sections h1 {
@@ -10069,6 +10073,10 @@ h5 {
 
     .item_body .head_sections .item__img {
         width: 80px !important;
+    }
+
+    .item_body {
+        margin-top: 60px !important;
     }
 
     .item_body__box_mobile .btn {
@@ -10382,6 +10390,10 @@ h5 {
 
 .nr-0 {
     border-right: none !important;
+}
+
+.color-blue {
+    color: #3B5998 !important;
 }
 
 .otr-1 li {
