@@ -10508,6 +10508,12 @@ input:focus {
     text-align: center;
 }
 
+.search .dropdown .a-big a {
+    font-size: 23px;
+    color: #3B5998 !important;
+    line-height: 1;
+}
+
 .search .dropdown .dropdown-menu {
     max-height: 180px;
     overflow: auto;
