@@ -10108,6 +10108,14 @@ h5 {
         margin-bottom: 0;
     }
 
+    .card-body a {
+        color: #fff;
+    }
+
+    .card-body a:hover, .card-body a:active, .card-body a:checked {
+        color: #fff;
+    }
+
     header .logo img {
         width: 100px;
     }
@@ -10247,7 +10255,7 @@ h5 {
     }
 
     .head_sections {
-        margin-top: 40px !important;
+        margin-top: 80px !important;
     }
 
     .head_sections h1 {
@@ -10392,7 +10400,23 @@ h5 {
     border-right: none !important;
 }
 
+.item_city .city a,
+.item_city .branch a {
+    color: #0DA7E1 !important;
+}
+
+.item_city .city a:hover, .item_city .city a:active, .item_city .city a:checked,
+  .item_city .branch a:hover,
+  .item_city .branch a:active,
+  .item_city .branch a:checked {
+    color: #0DA7E1 !important;
+}
+
 .color-blue {
+    color: #3B5998 !important;
+}
+
+.city {
     color: #3B5998 !important;
 }
 
@@ -10406,6 +10430,10 @@ h5 {
 .otr-1 li a {
     color: #3B5998 !important;
     line-height: 1.0 !important;
+}
+
+.btn {
+    line-height: 1.2;
 }
 
 .bottom-none {
