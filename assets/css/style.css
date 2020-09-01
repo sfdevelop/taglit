@@ -10389,6 +10389,10 @@ h5 {
     .slider .slick-arrow {
         margin-top: -15px;
     }
+
+    .m-40 {
+        margin-top: -40px !important;
+    }
 }
 
 .intro__title {
@@ -10400,9 +10404,19 @@ h5 {
     border-right: none !important;
 }
 
+.a_blue {
+    color: #0DA7E1;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.a_blue:hover {
+    text-decoration: underline;
+}
+
 .item_city .city a,
 .item_city .branch a {
-    color: #0DA7E1 !important;
+    color: #3b5998 !important;
 }
 
 .item_city .city a:hover, .item_city .city a:active, .item_city .city a:checked,
@@ -10940,4 +10954,14 @@ footer p {
 .valid-feedback,
 .invalid-feedback {
     font-size: 11px !important;
+}
+
+.down {
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+}
+
+.down a {
+    color: #0DA7E1;
 }
